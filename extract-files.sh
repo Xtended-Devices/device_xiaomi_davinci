@@ -26,7 +26,7 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 LINEAGE_ROOT="${MY_DIR}"/../../..
 
-HELPER="${LINEAGE_ROOT}/vendor/ancient/build/tools/extract_utils.sh"
+HELPER="${LINEAGE_ROOT}/tools/extract-utils/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
@@ -61,9 +61,6 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-    system_ext/lib64/libwfdnative.so)
-        patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
-        ;;
     product/lib64/libdpmframework.so)
         patchelf --add-needed "libshim_dpmframework.so" "${2}"
         ;;

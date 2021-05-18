@@ -269,7 +269,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-ancient \
+    $(LOCAL_PATH)/overlay-msm \
     $(LOCAL_PATH)/overlay-system
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
@@ -281,10 +281,7 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
     android.hardware.power.stats@1.0-service.mock
 
-# Product characteristics
-PRODUCT_CHARACTERISTICS := nosdcard
-
-# QTI
+# QMI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
 

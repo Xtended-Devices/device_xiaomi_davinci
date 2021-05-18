@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- FOD icon picker -->
+    <string name="fod_icon_picker_category_title">Параметры FOD</string>
+    <string name="fod_icon_picker_title">Выбор иконки отпечатка</string>
+    <string name="fod_icon_picker_summary">Выберите ваш любимый значок отпечатка пальца</string>
+    <string name="fod_icon_picker_footer">Чтобы добавить свой значок, выберите значок в верхнем левом углу и с помощью приложения выберите нужный значок.</string>
+
+    <!-- FOD pressed state behavior -->
+    <string name="fod_pressed_state_title">Поведение отпечатка при нажатии</string>
+    <string name="fod_pressed_state_summary">Выберите подходящее поведение в состоянии нажатия для вашего устройства</string>
+    <string name="fod_pressed_state_footer">Иконки/цвета могут различаться в зависимости от того, какое устройство вы используете.</string>
+    <string name="fod_pressed_state_icon">Голубой</string>
+    <string name="fod_pressed_state_icon_white">Белый</string>
+    <string name="fod_pressed_state_solid_color">Зеленый</string>
+
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">Анимация при распознавании</string>
+    <string name="fod_recog_animation_summary">Показывать анимацию при распознавании отпечатка</string>
+    <string name="fod_recog_animation_effect_title">Эффекты анимации распознавания</string>
+
+    <!-- Nav Bar Arrow Keys -->
+    <string name="navigation_bar_arrow_keys_title">Показать клавиши со стрелками при наборе</string>
+    <string name="navigation_bar_arrow_keys_summary">Отображение левой и правой кнопок курсора на панели навигации при наборе текста</string>
+
+    <string name="global_actions_onthego">На ходу</string>
+
+    <string name="enable_oneui_summary">Оптимизировать меню настроек для использования одной рукой\nПРИМЕЧАНИЕ: необходимо будет перезапустить приложение настроек </string>
+
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Анимация pixel</string>
+    <string name="pixel_navbar_anim_summary">Изменить анимацию кнопки домой</string>
+
+
+
+    <!-- QS DataUsage Toggle -->
+    <string name="qs_datausage_title">Показывать использование данных в заголовке плитки QS</string>
+    <string name="qs_datausage_subtitle">Отображает использование данных в заголовке плитки SIM, используемой в текущий момент</string>
+
+    <!-- OOS clear all button -->
+    <string name="enable_clear_all_button">Заменить текст "очистить всё" плиткой QS</string>
+    <string name="enable_clear_all_button_summary">Показывать плитку "Очистить все уведомления" в быстрых настройках вместо обычного текста</string>
+
+    <!-- Smart replies -->
+    <string name="hide_smart_replies_title">Скрыть умные ответы</string>
+    <string name="hide_smart_replies_summary">Скрыть умные ответы, чтобы сэкономить место на экране при просмотре уведомлений</string>
+
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">Уведомления в стиле R</string>
+    <string name="notification_headers_summary">Показывать заголовки уведомлений в стиле R (Требуется перезагрузка системного интерфейса)</string>
+
+    <!-- Hide Apps from Recents -->
+     <string name="hide_apps_from_recents_title">Не показывать приложение в недавних</string>
+     <string name="hide_apps_from_recents_summary">Не отбражать приложение в недавних</string>
+     <string name="hide_from_recents_add_app">Добавить приложение</string>
+     <string name="title_activity_carbon_recents_settings">Недавние</string>
+
+     <!-- FOD icon use wallpaper color -->
+    <string name="fod_wallpaper_color">Использовать цвет обоев для иконки сканера</string>
+    <string name="fod_wallpaper_color_summary">Использовать основной цвет обоев для иконки сканера отпечатка\nПрим: смотрится хорощо не со всеми обоями</string>
+
+    <!-- QS BG Tint -->
+    <string name="qs_bg_use_new_tint">Плитки QS с оттенком</string>
+    <string name="qs_bg_use_new_tint_summary">Используемый цвет для рисунка и фона(оттенок) плиток быстрых настроек</string>
+    <string name="qs_tint_off">Отключено</string>
+    <string name="qs_tint_random">Случайный цвет оттенка</string>
+    <string name="qs_tint_accent">Оттенок цвета акцента</string>
+    <string name="qs_disco_mode">Режим Qs Disco</string>
+
+    <!-- Gradient Panel QS Bg -->
+    <string name="qs_new_bg_title">Фон панели Qs с градиентом</string>
+    <string name="qs_new_bg_summary">Использоватьградиент для фона панели быстрых настроек</string>
+
+    <!-- QS Label Tint -->
+    <string name="qs_label_use_new_tint">Цвет заголовков плиток QS</string>
+    <string name="qs_label_tint_off">По умолчанию</string>
+    <string name="qs_label_tint_random">Случайный цвет</string>
+    <string name="qs_label_tint_accent">Системный цвет</string>
+    <string name="qs_label_tint_gradient">Цвет с градиентом</string>
+
+    <!-- Powermenu Background -->
+    <string name="power_menu_bg_title">Фон меню</string>
+    <string name="power_menu_bg_summary">Испольовать специальные эффекты когда меню питаня активно</string>
+    <string name="power_menu_bg_style_title">Тип эффекта</string>
+
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">QS напоминание</string>
+    <string name="qs_footer_warnings_summary">Показывать напоминание в нижней части панели быстрых настроек если сеть мониторится внешним приложением или vpn</string>
+
+    <!-- Ambient Customization -->
+    <string name="ambient_text_category_title">Настройки Ambient-AOD</string>
+    <string name="ambient_text_category_summary">Настроить вид Ambient-AOD</string>
+    <string name="ambient_text_title">Текст Ambient</string>
+    <string name="ambient_text_summary">Показывать текст на AoD</string>
+    <string name="ambient_text_animation_title">Анимация текста на AOD</string>
+    <string name="ambient_text_animation_summary">Показывать анимацию текста на AOD</string>
+    <string name="ambient_text_size_title">Размер Ambient текста</string>
+    <string name="ambient_text_font_title">Шрифт Ambient текста</string>
+    <string name="ambient_text_string_title">Установить Ambient текст</string>
+    <string name="ambient_text_align_title">Расположение Ambient текста</string>
+    <string name="ambient_text_align_start_top">Справа вверху</string>
+    <string name="ambient_text_align_start_center">Справа по центру</string>
+    <string name="ambient_text_align_start_bottom">Справа внизу</string>
+    <string name="ambient_text_align_center">По центру</string>
+    <string name="ambient_text_align_end_top">Слева вверху</string>
+    <string name="ambient_text_align_end_center">Слева по центру</string>
+    <string name="ambient_text_align_end_bottom">Слева внизу</string>
+    <string name="ambient_text_type_color_title">Цвет Ambient текста</string>
+    <string name="ambient_text_color_title">Цвет Ambient текста</string>
+    <string name="ambient_notification_light_color_mode_accent">Системный цвет</string>
+    <string name="ambient_notification_light_color_mode_wall">Цвет обоев</string>
+    <string name="ambient_notification_light_color_mode_custom">Заданный цвет</string>
+    <string name="ambient_image_title">Картинка Ambient</string>
+
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Пульсация не работает с некоторыми источниками звука при прослушивании через динамик </string>
+    <string name="pulse_settings">Пульсация</string>
+    <string name="pulse_settings_summary">Графический эквалайзер на панели навигации</string>
+    <string name="show_pulse_title">Показывать пульсацию</string>
+    <string name="show_pulse_summary">Графический эквалайзер на панели навигации</string>
+    <string name="pulse_render_mode_title">Режим рендеринга</string>
+    <string name="pulse_render_mode_fading_bars">Блоки</string>
+    <string name="pulse_render_mode_solid_lines">Сплошные линии</string>
+    <string name="pulse_color">Цвет</string>
+    <string name="pulse_color_mode">Режим цвета</string>
+    <string name="pulse_color_accent">Акцент</string>
+    <string name="pulse_color_custom">Заданный</string>
+    <string name="pulse_color_lava_lamp">Lava лампа</string>
+    <string name="pulse_color_auto">Обложка альбома</string>
+    <string name="pulse_color_chooser">Выбрать цвет</string>
+    <string name="smoothing_enabled_title">Включить сглаживание</string>
+    <string name="smoothing_enabled_summary">Каждая полоса анимируется более плавно</string>
+    <string name="pulse_advanced_category">Дополнительно</string>
+    <string name="pulse_legacy_mode_advanced_category">Настройки режима затухающих блоков</string>
+    <string name="pulse_custom_fudge_factor">Sanity level</string>
+    <string name="lavamp_speed_title">Скорость Lava лампы</string>
+    <string name="pulse_solid_units_count">Количество блоков</string>
+    <string name="pulse_solid_lines_count">Количество сплошных линий</string>
+    <string name="pulse_solid_units_opacity">Прозрачность сплошных линий</string>
+    <string name="pulse_solid_dimen_category">Настройки режима сплошных линий</string>
+    <string name="pulse_custom_dimen">Ширина панели</string>
+    <string name="pulse_custom_div">Интервал между панелями</string>
+    <string name="pulse_filled_block_size">Размер блока</string>
+    <string name="pulse_empty_block_size">Интервал между блоками</string>
+
+    <!-- Qs drag handle -->
+    <string name="qs_show_drag_handle_title">Рукоятка панели Qs</string>
+    <string name="qs_show_drag_handle_summary">Показывать рукоятку панели Qs</string>
+
+    <!-- QS Brightness Slider position -->
+    <string name="qs_brightness_slider_hide">Спрятать</string>
+    <string name="qs_brightness_slider_top">Вверху</string>
+    <string name="qs_brightness_slider_bottom">Внизу</string>
+    <!-- QQS brightness slider -->
+    <string name="qqs_brightness_slider_title">Слайдер яркости в панели Qs</string>
+
+    <!-- Sensor block package config-->
+    <string name="sensor_block_app_picker_title">Блокировать датчики для приложений</string>
+    <string name="add_sensor_block_package_title">Добавить приложения с блокировкой сенсоров</string>
+    <string name="add_sensor_block_package_summary">Датчики движения, линейного ускорения и акселерометр будут заблокированы для этих приложений.</string>
+
+    <!-- Selinux Switch -->
+    <string name="selinux_category">SELinux</string>
+    <string name="selinux_explanation_summary">Изменение режимов SELinux может вызвать нежелательные эффекты. Используйте на свой страх и риск.</string>
+    <string name="selinux_mode_title">Режим SELinux</string>
+    <string name="selinux_persistence_title">Сохранять после перезагрузки</string>
+    <string name="selinux_persistence_summary">Восстанавливайть указанный режим SELinux при каждой загрузке</string>
+    <string name="selinux_permissive_toast_title">Selinux установлен в permissive!</string>
+    <string name="selinux_enforcing_toast_title">Selinux установлен в enforcing!</string>
+    <string name="cannot_get_su">Не удалось выполнить действие из-за отсутствия root доступа</string>
+
+    <!-- MusicCard -->
+    <string name="volume_panel_musiccard_title">Музыкальные карточки</string>
+    <string name="volume_panel_musiccard_summary">Включить музыкальные карточки </string>
+
+    <!-- Lockscreen Item Alignments -->
+    <string name="lockscreen_date_alignment_title">Выравнивание даты</string>
+    <string name="lockscreen_ownerinfo_alignment_title">Выравнивание информации о владельце</string>
+    <string name="lock_item_left">Слева</string>
+    <string name="lock_item_center">По центру</string>
+    <string name="lock_item_right">Справа</string>
+    <string name="lockscreen_item_padding_title">Отступ между элементами экрана</string>
+    <string name="lockscreen_weather_alignment_title">Выравнивание информации о погоде</string>
+    <string name="lockscreen_weather_selection_title">Стиль виджета погоды</string>
+
+    <string name="ambient_decor_title">Настройки Xtended Ambient</string>
+    <string name="ambient_decor_summary">Меню для настройки вида Ambient</string>
+
+    <string name="ambient_battery_percent_title">Уровень заряда</string>
+    <string name="ambient_battery_percent_summary">Показывать уровень заряда батареи на AOD</string>
+
+    <string name="navbar_visibility">Панель навигации</string>
+    <string name="navbar_vis_summary">Включение - отключение панели навигации</string>
+
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Инвертировать</string>
+    <string name="navbar_invert_layout_summary">Поменять местами кнопки "недавние приложения" и "назад"</string>
+
+    <string name="global_actions_advanced_reboot_title">Включить расширенную перезагрузку</string>
+    <string name="global_actions_advanced_reboot_summary">Показывать опции для recovery и бутлоадера при перезагрузке</string>
+    <string name="global_actions_max_columns_title">Максимум отображаемых действий</string>
+    <string name="global_actions_max_columns_summary">При каком количестве акций включать мню переполнения</string>
+
+    <!-- Edit icon toggle -->
+    <string name="qs_edit_title">Иконка редактирования</string>
+    <string name="qs_edit_summary">Показывать иконку редактирования плиток</string>
+
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Умная панель QS</string>
+    <string name="smart_pulldown_summary">Открывать быстрые настройки когда %1$s уведомлений</string>
+    <string name="smart_pulldown_none_summary">Открывать быстрые настройки когда нет уведомлений</string>
+    <string name="smart_pulldown_off">Отключено</string>
+    <string name="smart_pulldown_none">нет уведомлений</string>
+    <string name="smart_pulldown_dismissable">нет закрываемых</string>
+    <string name="smart_pulldown_ongoing">нет текущих</string>
+
+    <!-- QS advanced settings -->
+    <string name="status_bar_quick_qs_pulldown">Быстрое открытие QS</string>
+    <string name="quick_pulldown_none">Отключено</string>
+
+    <!-- Brightness slider -->
+    <string name="qs_brightness_category">Слайдер яркости в панели QS</string>
+    <string name="qs_show_brightness_title">Слайдер яркости</string>
+    <string name="qs_show_brightness_summary">Видимость и настройка слайдера яркости</string>
+    <string name="qs_show_brightness_above_footer_title">Над нижним колонтитулом</string>
+    <string name="qs_show_brightness_above_footer_summary">Показывать слайдер яркости над нижним колонтитулом QS</string>
+    <string name="qs_show_auto_brightness_title">Иконка автоматической яркости</string>
+    <string name="qs_show_auto_brightness_summary">Показывать иконку автоматической яркости возле слайдера</string>
+
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Иконка VoWiFi</string>
+    <string name="vowifi_icon_enabled">Иконка VoWiFi включена</string>
+    <string name="vowifi_icon_disabled">Иконка VoWiFi отключена</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi вместо VoLTE</string>
+    <string name="vowifi_icon_style_title">Выбрать иконку VoWiFi</string>
+    <string name="vowifi_icon_default">По умолчанию</string>
+
+    <!-- Partial Screenshot -->
+    <string name="click_partial_screenshot_title">Быстрое нажатие для частичного скриншота</string>
+    <string name="click_partial_screenshot_summary">Быстро нажать громкость- и Power для скриншота выделенной области</string>
+
+    <!-- Ambient edge lighting -->
+    <string name="pulse_ambient_light_category">Подсветка краёв экрана</string>
+    <string name="ambient_notification_light_enabled_title">Показывать при AOD</string>
+    <string name="ambient_notification_light_enabled_summary">Показывать подсветку краёв экрана при включённом AOD</string>
+    <string name="ambient_notification_light_color_title">Задать цвет</string>
+    <string name="ambient_notification_light_color_summary">Цвет по умолчанию для подсветки</string>
+    <string name="ambient_notification_light_hide_aod_title">Показывать только подсветку</string>
+    <string name="ambient_notification_light_hide_aod_summary">Спрятать все элементы AOD</string>
+    <string name="ambient_notification_light_timeout_title">Таймаут для подсветки</string>
+
+    <!-- Nightlight Fod -->
+    <string name="fod_night_light_title">Оключать ночную подсветку при использовании FOD</string>
+    <string name="fod_night_light_summary">Оключать ночную подсветку кода активен FOD. Отлючение этой опции может повлиять на качество распознавания отпечатка при использовании ночной подсветки.</string>
+
+</resources>
