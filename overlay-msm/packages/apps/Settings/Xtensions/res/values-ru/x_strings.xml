@@ -481,6 +481,7 @@
     <!-- Media art -->
     <string name="lockscreen_media_category">Музыка</string>
     <string name="media_art_title">Обложка произведения</string>
+    <string name="media_art_summary">Включить обложку произведения на заблокированном экране</string>
     <!-- Lockscreen album art filter -->
     <string name="lockscreen_albumart_filter_title">Фильтр обложек экрана блокировки</string>
     <string name="lockscreen_albumart_filter_none">Нет</string>
@@ -507,6 +508,10 @@
     <string name="navbar_tuner_title">Панель навигации</string>
     <string name="navbar_tuner_summary">Настроить панель навигации</string>
     <string name="navbar_layout_title">Макет</string>
+    <string name="navbar_layout_normal">Ноомальный</string>
+    <string name="navbar_layout_compact">Компактный</string>
+    <string name="navbar_layout_leftleaning">Левый</string>
+    <string name="navbar_layout_rightleaning">Правый</string>
     <!-- Heads up -->
     <string name="heads_up_notifications">Всплывающие уведомления</string>
     <string name="heads_up_notifications_summary">Настройки всплывающих уведомлений</string>
@@ -746,5 +751,106 @@
     <string name="alarm_blocker_reload">Обновить</string>
     <string name="alarm_blocker_warning_title">Соблюдайте осторожность</string>
     <string name="alarm_blocker_warning">Блокировка будящих процессов может вызвать нестабильность приложений, принудительные закрытия или потерю данных.</string>
+
+    <string name="dark_ui_mode_summary">Наатройки тёмной темы</string>
+    <string name="theme_customization_category">Основные настройки</string>
+    <string name="gvisual_summary">Различные настройки интерфейса</string>
+    <string name="qs_themes_category_title">Темы для быстрых настроек</string>
+    <string name="qs_panel_alpha_title">Непрозрачность быстрых настроек</string>
+    <string name="qs_panel_alpha_summary">Настроить непрозрачность фона</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">AOD при зарядке</string>
+    <string name="doze_on_charge_summary">Всегда включать AOD во время зарядки</string>
+
+    <string name="pulse_ambient_light_color_mode_title">Цвет свечения</string>
+    <string name="pulse_ambient_light_color_mode_notification">Автоматический (Цвет уведомления)</string>
+    <string name="pulse_ambient_light_color_mode_wall">Автоматический (Цвет обоев)</string>
+    <string name="pulse_ambient_light_color_mode_accent">Акцент</string>
+    <string name="pulse_ambient_light_color_mode_custom">Заданный</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Направление свечения</string>
+    <string name="pulse_ambient_light_repeat_direction_restart">Циклическое</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Реверсивное</string>
+
+    <string name="screen_off_animation_title">Анимация выключения экрана</string>
+    <string name="screen_off_animation_default">По умолчанию</string>
+    <string name="screen_off_animation_crt">ЭЛТ</string>
+    <string name="screen_off_animation_scale">Масштабирование</string>
+
+    <string name="volume_panel">Стиль панели громкости</string>
+
+    <string name="lockscreen_tuner_title">Значки экрана блокировки</string>
+    <string name="lockscreen_tuner_summary">Настройка значков на экране блокировки</string>
+    <string name="lock_screen_elements_category_title">Элементы экрана блокировки</string>
+    <string name="lock_screen_unlock_category_title">Разблокировка</string>
+    <string name="fp_unlock_keystore_title">Разблокировка отпечатком</string>
+    <string name="fp_unlock_keystore_summary">Разблокировать устройство отпечатком после перезагрузки или отключения</string>
+    <string name="fp_encrypt_warning">Разблокируйте устройство с помощью отпечатка пальца после перезагрузки без PIN-кода/пароля/шаблона \nПримечание: Данные зашифрованы, поэтому вы не можете использовать эту функцию.</string>
+    <string name="lockscreen_visualizer_enable_summary">Показывать визуализатор во время воспроизведения музыки</string>
+
+    <string name="navbar_summary">Включение-отключение панели навигации</string>
+
+    <string name="disable_fc_notifications_title">Отключить FC уведомления</string>
+    <string name="disable_fc_notifications_summary">Скрыть все уведомления о принудительном закрытии</string>
+
+    <string name="notification_sound_vib_screen_on_title">Звук уведомлений</string>
+    <string name="notification_sound_vib_screen_on_summary">Рзрешить звук уведомлений и вибрацию при включенном экране</string>
+
+    <string name="reticker_category" translatable="false">Ретикер</string>
+    <string name="reticker_title">Ретикер (требуется перезагрузка SystemUI)</string>
+    <string name="reticker_summary">Замените свои уведомления обновленной версией тикеров. \nТонкие и менее агрессивные, чем стандартные уведомления</string>
+    <string name="reticker_colored_title">Использовать фон основного цвета приложения</string>
+    <string name="reticker_colored_summary">Заменить цвет тикера на основной цвет приложения</string>
+
+    <string name="qs_footer_text_title">Текст нижнего колонтитула</string>
+    <string name="qs_footer_text_summary">Показывать текст в нижней части панели быстрых настроек</string>
+    <string name="qs_footer_text_string_title">Настроить текст нижнего колонтитула</string>
+    <string name="qs_footer_text_string_summary">Оставьте пустым для текста MSM-Xtended</string>
+
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Игровой режим</string>
+    <string name="gaming_mode_summary">Настройка параметров игрового режима</string>
+    <string name="gaming_mode_enable_title">Включить Игровой режим</string>
+    <string name="gaming_mode_enable_summary">Игровой режим будет активирован с выбранными настройками</string>
+    <string name="gaming_mode_app_picker_title">Автоматически включить для этих приложений</string>
+    <string name="add_gaming_mode_package_title">Добавить приложения для игрового режима</string>
+    <string name="add_gaming_mode_package_summary">Игровой режим будет автоматически включен для выбранных приложений</string>
+    <string name="gaming_mode_headsup_title">Блокировка уведомлений</string>
+    <string name="gaming_mode_headsup_summary">Блокировать все всплывающие уведомления кроме звонков</string>
+    <string name="gaming_mode_hardware_keys_title">Блокировка кнопок</string>
+    <string name="gaming_mode_hardware_keys_summary">Отключить аппаратные кнопки при включенном игровом режиме</string>
+    <string name="gaming_mode_brightness_title">Отключение автояркости</string>
+    <string name="gaming_mode_brightness_summary">Блокировка яркости экрана при включенном игровом режиме</string>
+    <string name="gaming_mode_ringer_title">Звонок в игровом режиме</string>
+    <string name="gaming_mode_ringer_off_title">Не изменять</string>
+    <string name="gaming_mode_ringer_vibrate_title">Вибрация</string>
+    <string name="gaming_mode_ringer_dnd_title">Не беспокоить</string>
+    <string name="gaming_mode_ringer_silent_title">Без звука</string>
+    <string name="gaming_mode_notifications_title">Уведомления</string>
+    <string name="gaming_mode_notifications_off_title">Отключены</string>
+    <string name="gaming_mode_notifications_notif_title">Показывать уведомления</string>
+    <string name="gaming_mode_notifications_toast_title">Показывать тосты</string>
+    <string name="gaming_mode_notifications_all_title">Тосты и уведомления</string>
+    <string name="gaming_mode_dynamic_title">Динамический игровой режим</string>
+    <string name="gaming_mode_dynamic_summary">Каждый раз когда вы открываете какое-либо приложение, и система обнаруживает что это игра, она будет автоматически добавлена в список. Обратите внимание, что это работает не со всеми играми.</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Умные пиксели</string>
+    <string name="smart_pixels_summary">Экономить заряд батареи, выключая дополнительные пиксели</string>
+    <string name="smart_pixels_on_power_save_title">Включать автоматически в режиме экономии заряда</string>
+    <string name="smart_pixels_on_power_save_summary">Включить умные пиксели, когда включен режим экономии заряда</string>
+    <string name="smart_pixels_percent">Процент выключаемых пикселей</string>
+    <string name="smart_pixels_shift">Защита от выгорания</string>
+    <string name="smart_pixels_warning_text">Smart Pixels - это функция энергосбережения. В зависимости от того, сколько пикселей вы решите отключить, вы можете увидеть значительное улучшение времени автономной работы. Для удобства пользователей мы рекомендуем установить количество отключенных пикселей на 75 процентов при смене каждые 10 минут.</string>
+    <!-- Rounded corners -->
+    <string name="corners_category">Углы</string>
+    <string name="corner_radius">Радиус скругления угла</string>
+    <string name="content_padding">Отступ контента от угла</string>
+    <string name="corner_fwvals">Использовать значения фреймворка</string>
+    <string name="corner_fwvals_summary">Полезно, если устройство на самом деле имеет округленные углы</string>
+    <!-- Brightness Slider style -->
+    <string name="brightness_slider_style_title">Силь слайдера яркости</string>
+    <string name="brightness_slider_style_default">По умолчанию</string>
+    <!-- System-wide Slider Styles -->
+    <string name="system_slider_style_title">Стиль системных слайдеров</string>
+    <string name="system_slider_style_default">По умолчанию</string>
 
 </resources>
