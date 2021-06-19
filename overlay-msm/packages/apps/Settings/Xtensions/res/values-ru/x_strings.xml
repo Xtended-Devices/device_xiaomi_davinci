@@ -389,7 +389,7 @@
     <string name="double_tap_to_sleep_statusbar_summary">Двойной тап на строке состояния для выключения экрана</string>
     <!-- Lockscreen UI -->
     <string name="lockscreen_ui_title">Вид экрана блокировки</string>
-    <string name="lockscreen_ui_summary">Change the looks of Lockscreen</string>
+    <string name="lockscreen_ui_summary">Измените вид экрана блокировки</string>
     <!-- Lockscreen clock category -->
     <string name="lock_screen_clock_category_title">Часы</string>
     <!-- Lockscreen clock style -->
@@ -852,5 +852,37 @@
     <!-- System-wide Slider Styles -->
     <string name="system_slider_style_title">Стиль системных слайдеров</string>
     <string name="system_slider_style_default">По умолчанию</string>
+
+    <string name="custom_text_clock_font_title">Шрифт текстовых часов</string>
+    <string name="lockscreen_weather_alignment_title">Расположение виджета погоды</string>
+    <string name="lockscreen_item_padding_title">Отступы между элементами</string>
+
+    <string name="weather_title">Погода</string>
+    <string name="weather_summary">Настройки виджета погоды</string>
+    <string name="weather_config_title">Служба погоды</string>
+    <string name="weather_config_summary">Настройка службы погоды</string>
+    <string name="weather_icon_pack_title">Стиль значка погоды</string>
+    <string name="weather_icon_pack_info_title">Пакет начков используется в быстрых настроек и на экране блокировки</string>
+    <string name="lockscreen_weather_title">Показывать состояние погоды</string>
+    <string name="lockscreen_weather_summary">Показывать состояние погоды и температуру</string>
+    <string name="lock_screen_weather_style_title">Стиль погоды</string>
+    <string name="lock_screen_weather_style_summaryOff">Погода отображается под линией даты с указанием местоположения</string>
+    <string name="lock_screen_weather_style_summaryOn">Погода отображается на линии даты без указания местоположения</string>
+
+    <!-- LockWeather Switches -->
+    <string name="lockscreen_weather_show_city_title">Показывать название города</string>
+    <string name="lockscreen_weather_show_city_summary">Показать название города слева от изображения</string>
+    <string name="lockscreen_weather_show_temp_title">Показать температуру</string>
+    <string name="lockscreen_weather_show_temp_summary">Показать текущую температуру справа от изображения</string>
+    <string name="lockscreen_weather_show_image_title">Показывать значок состояния</string>
+    <string name="lockscreen_weather_show_image_summary">Показывать значок состояния погоды</string>
+
+    <!-- LS Weather Temp & City Fonts -->
+    <string name="lock_weather_temp_font_title">Шрифт температуры</string>
+    <string name="lock_weather_temp_font_summary">Изменить шрифт температуры</string>
+    <string name="lock_weather_temp_font_dialog_title">Выберите шрифт температуры</string>
+    <string name="lock_weather_city_font_title">Шрифт названия города</string>
+    <string name="lock_weather_city_font_summary">Изменить шрифт названия города</string>
+    <string name="lock_weather_city_dialog_title">Выберите шрифт названия города</string>
 
 </resources>
